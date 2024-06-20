@@ -1,0 +1,23 @@
+QUADRATIC ROOTS (IF-ELSE COND):
+
+import java.util.*;
+
+class QuadRoots{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+float a,b,c;
+a=sc.nextFloat();
+b=sc.nextFloat();
+c=sc.nextFloat();
+float d=(b*b)-4*(a*c);
+if(d < 0){
+System.out.println("Roots are imposibble");
+}
+else{
+float r1=(float)(-b+Math.sqrt(d)/(2*a));
+float r2=(float)(-b-Math.sqrt(d)/(2*a));
+System.out.printf("r1=%.3f\n",r1);
+System.out.printf("r2=%.3f",r2);
+}
+}
+}
