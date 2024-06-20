@@ -1,0 +1,15 @@
+SQUARE ROOT OF A NUMBER [SCANNER CLS]:
+
+import java.util.*;
+//default package in java is lang  
+
+class Sqrrt
+{
+public static void main(String args[]){
+Scanner sc = new Scanner(System.in); //sc is OBJ name
+int a;
+a=sc.nextInt();
+double c=Math.sqrt(a);
+System.out.println(c);
+}
+}
