@@ -1,0 +1,23 @@
+DEPT REPAY (HACKERRANK):
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int p,r,y;
+        p=sc.nextInt();
+        r=sc.nextInt();
+        y=sc.nextInt();
+        float i=(float)(p*r*y)/100;
+        System.out.printf("%.2f\n",i);
+        float amt=(float)i+p;
+        System.out.printf("%.2f\n",amt);
+        float d=(float)0.02*i;
+        System.out.printf("%.2f\n",d);
+        float total=amt-d;
+        System.out.printf("%.2f",total);
+    }
+}
