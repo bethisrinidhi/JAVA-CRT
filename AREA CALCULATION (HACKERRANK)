@@ -1,0 +1,23 @@
+AREA CALCULATION (JAVA):
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a,b,c;
+        float d;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextFloat();
+        int area=a*a;
+        System.out.println(area);
+        int rec=b*c;
+        System.out.println(rec);
+        float cir=(float)3.14*d*d;
+        System.out.printf("%.2f",cir);
+    }
+}
