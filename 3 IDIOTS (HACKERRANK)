@@ -1,0 +1,20 @@
+3 IDIOTS (HACKERRANK):
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+            int a,b,c,d;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        float x=(float)(a+c)/2;
+        float y=(float)(b+d)/2;
+        System.out.printf("Binoy's house is located at ("+x+","+y+")");
+        
+    }
+}
