@@ -1,0 +1,21 @@
+BOATING (HACKERRANK):CONDITIONS
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        int a=s.nextInt();
+        int b=s.nextInt();
+        int w=(75*a)+(30*b);
+        if(w>n){
+            System.out.println("Boat will drown");
+        }
+        else{
+            System.out.println("Boat is stable");
+        }
+    }
+}
