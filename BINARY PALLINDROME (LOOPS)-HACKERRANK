@@ -1,0 +1,25 @@
+BINARY PALLINDROME (LOOPS)-HACKERRANK:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int rem,d=0,t;
+        t=n;
+        while(n>0){
+            rem=n%2;
+            n=n/2;
+            d=d*2+rem;
+             }
+        if(t==d){
+            System.out.println("yes");
+        }
+        else{
+            System.out.println("no");
+        }
+    }
+}
