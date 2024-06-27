@@ -1,0 +1,23 @@
+MERGE INTERVALS(ARRAYS)-HACKERRANK:
+
+import java.util.*;
+class MergeIntervals{
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        int a[]=new int[n];
+        int i;
+        for(i=0;i<n;i++){
+            a[i]=s.nextInt();
+        }
+        for(i=0;i<n;i++){
+            if(i+1<n){
+                if(a[i]<=a[i+1]){
+                    System.out.print(a[i]+" ");
+                }
+            }
+        }
+        System.out.print(a[n-1]);
+        
+    }
+    }
