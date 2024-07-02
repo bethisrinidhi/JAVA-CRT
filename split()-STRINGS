@@ -1,0 +1,13 @@
+split(str)-STRINGS:
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String str="Java is a simple Language";
+        String r[]=str.split(" ");
+        System.out.println(Arrays.toString(r));
+        String r1[]=str.split("is");
+        System.out.println(Arrays.toString(r1));
+    }
+}
