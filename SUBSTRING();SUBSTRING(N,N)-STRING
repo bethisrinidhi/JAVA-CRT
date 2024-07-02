@@ -1,0 +1,11 @@
+SUBSTRING();SUBSTRING(N,N)-STRING:
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String str="Java is a simple Language";
+        System.out.println(str.substring(6));
+        System.out.println(str.substring(3,15));
+    }
+}
