@@ -1,0 +1,15 @@
+Word and Number of Characters-STRINGS
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String str=sc.nextLine();
+        String res[]=str.split(" ");
+       
+        for(int i=0;i<res.length;i++){
+            
+        System.out.println(res[i]+"-"+res[i].length());
+    }
+}
+}
